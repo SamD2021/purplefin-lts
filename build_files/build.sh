@@ -8,6 +8,7 @@ dnf copr enable -y ligenix/enterprise-cosmic rhel+epel-10-x86_64
 dnf install -y \
   cosmic-desktop \
   tmux \
+  NetworkManager-openvpn \
   && dnf clean all
 
 dnf copr disable ligenix/enterprise-cosmic
