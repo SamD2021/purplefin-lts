@@ -3,7 +3,7 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Main bootc image
-FROM ghcr.io/ublue-os/bluefin:lts
+FROM ghcr.io/ublue-os/bluefin-dx:lts
 
 
 # Make /usr/local writable by overlay
