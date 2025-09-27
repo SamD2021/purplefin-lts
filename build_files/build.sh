@@ -9,6 +9,7 @@ dnf install -y \
   cosmic-desktop \
   tmux \
   NetworkManager-openvpn \
+  NetworkManager-openvpn-gnome \
   && dnf clean all
 
 dnf copr disable ligenix/enterprise-cosmic
